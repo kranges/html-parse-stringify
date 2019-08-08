@@ -366,6 +366,7 @@ test('parse', function (t) {
             { type: 'text', content: 'There' }
         ]
     }], 'should remove text nodes that are nothing but whitespace');
+
     t.end();
 });
 
